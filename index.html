@@ -15,16 +15,14 @@
   <meta property="og:url" content="https://www.thecodingsharks.com">
   <meta property="og:type" content="website">
   <title>Coding Sharks</title>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16720744211">
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16720744211"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'AW-16720744211');
 </script>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -79,7 +77,7 @@
   function onPlayerReady(event) {
     event.target.playVideo(); 
     setTimeout(() => {
-    }, 3000); // 3000 milliseconds (3 seconds)
+    }, 3000); 
   }
 </script>
     </div>
@@ -178,13 +176,13 @@
           function stopAllVideos() {
               videoFrames.forEach(frame => {
                   const src = frame.src;
-                  frame.src = '';  // Clear src to stop playback
-                  frame.src = src; // Reset src to allow replay
+                  frame.src = '';  
+                  frame.src = src; 
               });
           }
           videoFrames.forEach(frame => {
               frame.addEventListener('play', () => {
-                  stopAllVideos(); // Stop other videos on play
+                  stopAllVideos(); 
               });
           });
       </script>
@@ -194,41 +192,6 @@
     </div>
     </div>
 
-  <!-- <div class="row1">
-    <div class="col">
-      <div class="card">
-        <img src="./image/r1.png" class="card" alt="r1">
-      </div>
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./image/r1.png" class="iz" alt="r1">
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./image/r1.png" class="iz" alt="r1">
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./image/r1.png" class="iz" alt="r1">
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./image/r1.png" class="iz" alt="r1">
-      </div>
-    </div>
-  </div> 
-  </div>
-<div class="container">
-  <br><br><br>
-  <div class="elfsight-app-98056bf1-3fc7-4cb5-b853-f5804e0f895d" data-elfsight-app-lazy></div>
-</div> -->
 <div class="container-fluid text-center" style="background-color: #f6ebc5;">
   <br>
   <h1>“ KNOW YOU’R COACH“</h1>
