@@ -1,5 +1,5 @@
 .body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -14,14 +14,14 @@
   text-align: center;
 }
 .h11 {
-    margin: -8px;
+  margin: -8px;
 }
 .h11 + .h11 {
-    margin-top: -30px;
+  margin-top: -30px;
 }
 .img-fluid-1 {
   max-width: 50%;
-    height: auto;
+  height: auto;
 }
 .start h1 {
   font-size: 68px;
@@ -29,26 +29,25 @@
   margin-bottom: 30px;
 }
 .btn-custom {
-  background: linear-gradient(45deg , #ff6347, #e19f3d);
+  background: linear-gradient(45deg, #ff6347, #e19f3d);
   color: #fff;
   text-align: center;
-  padding: 8px 240px; 
+  padding: 8px 240px;
   font-weight: bold;
   font-size: 18px;
-  /* border-radius: 20px; */
   margin-top: 10px;
   border: none;
 }
-.wap{
+.wap {
   font-size: xx-large;
   font-weight: bold;
 }
-.f22{
+.f22 {
   background-image: url(/image/bg.png);
-  image-orientation:90deg;
+  image-orientation: 90deg;
   color: #fff;
 }
-.wap2{
+.wap2 {
   font-size: x-large;
   font-weight: 500;
 }
@@ -80,7 +79,7 @@
 }
 
 .btn-webinar {
-  background-color: #FF6347;
+  background-color: #ff6347;
   color: white;
   border: none;
   padding: 15px 85px;
@@ -104,7 +103,7 @@
 }
 
 .check-list li i {
-  color: #4CAF50;
+  color: #4caf50;
   margin-right: 10px;
 }
 
@@ -134,12 +133,12 @@
 .h2 {
   font-weight: bold;
 }
-.d2{
+.d2 {
   position: absolute;
   left: 500px;
   top: 3950px;
 }
-.s3{
+.s3 {
   position: absolute;
   left: 500px;
   top: 4550px;
@@ -151,14 +150,13 @@
 }
 .navbar-nav .nav-link {
   color: #333;
-  font-size:x-large;
+  font-size: x-large;
   text-align: left;
   font-weight: bold;
   margin-left: 20px;
 }
 .navbar-nav .nav-link:hover {
   color: #ff6347;
-  
 }
 footer {
   padding: 30px 0;
@@ -172,7 +170,7 @@ footer p {
   width: 590px;
   height: 500px;
   overflow: hidden;
-}  
+}
 .card-text {
   font-size: 19px;
 }
@@ -180,19 +178,19 @@ footer p {
   width: 990px;
   height: 600px;
   overflow: hidden;
-  border-radius: 10px; /* Rounded corners */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card-1:hover {
-  transform: scale(1.05); /* Slightly enlarge the card */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .card-img-top {
-  transition: transform 0.3s ease; /* Smooth image transition */
+  transition: transform 0.3s ease;
 }
 .card-1:hover .card-img-top {
-  transform: scale(1.1); /* Zoom in on the image when card is hovered */
+  transform: scale(1.1);
 }
 .chapter-section {
   background-color: #f8f9fa;
@@ -242,7 +240,7 @@ footer p {
 
 .chapter-card ul li::before {
   content: "✔";
-  color: #28b42f  !important;
+  color: #28b42f !important;
   margin-right: 10px;
 }
 
@@ -274,7 +272,7 @@ footer p {
   display: flex;
   justify-content: center;
 }
-.asd{
+.asd {
   display: flex;
   justify-content: center;
   margin-left: 8%;
@@ -282,30 +280,30 @@ footer p {
 }
 
 .checklist {
-  list-style: none; /* Remove default list styling */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
-  align-items: center; /* Center items horizontally */
-  height: auto; /* Adjust height to auto */
-  max-height: 200px; /* Limit the height to prevent overlap */
-  overflow: hidden; /* Prevent overflow */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-height: 200px;
+  overflow: hidden;
 }
 
 .checklist li {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   justify-content: flex-start;
-  width: 100%; 
-  text-align: left; 
-  margin: 5px 0; 
+  width: 100%;
+  text-align: left;
+  margin: 5px 0;
 }
 
 .text-success {
-  color: #28a745; 
-  margin-right: 10px; 
+  color: #28a745;
+  margin-right: 10px;
 }
 
 .container {
@@ -313,17 +311,17 @@ footer p {
 }
 
 .row {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .fs-2 {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .form-section {
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
   padding: 20px;
-  border-radius: 8px; 
+  border-radius: 8px;
 }
 
 .card1 {
@@ -350,16 +348,16 @@ footer p {
 }
 
 .img-custom {
-  width: 80%; /* Adjust as needed for your design */
-  margin: 0 auto; /* Center the image within the column */
-  display: block; /* Ensure images are treated as block-level elements */
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
- .video-container {
+.video-container {
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 Aspect ratio */
+  padding-bottom: 56.25%;
   background-color: #000;
   overflow: hidden;
 }
@@ -381,13 +379,13 @@ footer p {
 }
 .video-item {
   position: relative;
-  width: 280px; /* Fixed width for consistency */
-  height: 500px; /* Adjust as needed */
+  width: 280px;
+  height: 500px;
   border-radius: 15px;
   overflow: hidden;
   background-color: black;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-  transition: transform 0.2s; /* Smooth hover effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
 }
 
 .video-item:hover {
@@ -404,23 +402,23 @@ footer p {
 }
 
 .course-link {
-  color: white; /* Set default color to white */
-  text-decoration: none; /* Remove underline */
-  margin-left: 5px; /* Add space between icon and link */
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
 }
 
 .course-link:hover {
-  color: #ff7e5f; /* Change color on hover */
+  color: #ff7e5f;
 }
 
 .contact-link {
-  color: white; /* Set default color to white */
-  text-decoration: none; /* Remove underline */
-  margin-left: 5px; /* Add space between icon and text */
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
 }
 
 .contact-link:hover {
-  color: #ff7e5f; /* Change color on hover */
+  color: #ff7e5f;
 }
 
 .social-icons {
@@ -432,12 +430,12 @@ footer p {
 
 .social-btn {
   color: white;
-  font-size: 2rem; /* Increase the icon size */
+  font-size: 2rem;
   text-decoration: none;
 }
 
 .social-btn:hover {
-  color: #ff7e5f; /* Changes color on hover */
+  color: #ff7e5f;
 }
 
 .hc {
@@ -446,14 +444,14 @@ footer p {
 
 .journey-container {
   position: relative;
-  padding-left: 30px; /* Space for the vertical line */
+  padding-left: 30px;
 }
 
 .journey-step {
   display: flex;
   align-items: flex-start;
   margin-bottom: 2rem;
-  padding-left: 25px; /* Space for each step with icons */
+  padding-left: 25px;
 }
 
 .icon-container {
@@ -463,7 +461,6 @@ footer p {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  /* background-color: #c5c1b2; */
   color: #555;
   font-size: 1.4rem;
   margin-right: 1rem;
@@ -474,26 +471,26 @@ footer p {
   width: 2px;
   background-color: #d1d1d1;
   position: absolute;
-  top: 20px; /* Increase the top value */
-  bottom: 30px; /* Decrease the bottom value */
+  top: 20px;
+  bottom: 30px;
   left: 80px;
   z-index: 0;
 }
 
-.journey-step h5  {
+.journey-step h5 {
   font-weight: bold;
   display: flex;
   justify-content: flex-start;
   margin-bottom: 0.5rem;
 }
-.journey-step p  {
+.journey-step p {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 0.5rem;
 }
 
-#learning{
+#learning {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -505,19 +502,15 @@ footer p {
 
 #starticon {
   background-color: #e9acc3;
-
 }
 #bookicon {
   background-color: #c9d6cc;
-
 }
 #practiceicon {
   background-color: #a6ddb3;
-
 }
 #createicon {
   background-color: #8db5e9;
-
 }
 
 @media (max-width: 768px) {
@@ -528,23 +521,23 @@ footer p {
   }
   .asd {
     display: flex;
-  justify-content: center;
-  margin-left: 1%;
-  padding: 20px;
+    justify-content: center;
+    margin-left: 1%;
+    padding: 20px;
   }
   .chapter-card {
     width: 90%;
   }
   .journey-container {
-    padding-left: 0; /* Remove extra padding on smaller screens */
-    margin-top: 2rem; /* Add spacing between sections */
+    padding-left: 0;
+    margin-top: 2rem;
   }
 
   .step-line {
-    left: 50px; /* Adjust positioning for small screens */
-    top: 10px; /* Optional: fine-tune top position */
+    left: 50px;
+    top: 10px;
     left: 20px;
-    bottom: 20px; /* Optional: fine-tune bottom position */
+    bottom: 20px;
   }
 
   .icon-container {
@@ -567,7 +560,7 @@ footer p {
   .video-container {
     align-items: center;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
   }
   .btn-custom {
     padding: 10px 30px;
@@ -600,20 +593,20 @@ footer p {
     display: block;
   }
   .col-12 {
-  padding: 5%; 
+    padding: 5%;
   }
   .col-md-5 {
-  flex: 0 0 auto;
+    flex: 0 0 auto;
   }
   .img-fluid-1 {
     max-width: 80%;
   }
 
   .video-container {
-    max-width: 900px; 
-    margin: 0 auto; 
+    max-width: 900px;
+    margin: 0 auto;
     height: 515px;
-    padding-bottom: 0%; 
+    padding-bottom: 0%;
   }
 
   .order-1 {
